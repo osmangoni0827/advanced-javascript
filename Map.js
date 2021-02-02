@@ -17,7 +17,7 @@ function sembol(element)
 {
     console.log(element*element);
 }
-Acces Array use Map;
+// Acces Array use Map;
 const result= Number.map (element=>element>4);
 console.log(result);
 
@@ -30,5 +30,3 @@ const List=Object.map(element=>element.Age);
 const filterList=Object.filter(element=>element.Age>20);
 console.log(filterList);
 filterList.map(element=>console.log(element.Age));
-
-
