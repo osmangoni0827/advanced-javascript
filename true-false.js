@@ -12,6 +12,7 @@
 //' '
 //'0'
 //{}
+//
 let num={};
 console.log(num);
 if(num)
